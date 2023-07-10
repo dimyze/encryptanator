@@ -1,0 +1,8 @@
+.container--main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+  height: 100vh;
+  padding: 4.2rem 0;
+}

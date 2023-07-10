@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 9.6rem;
+}
+
+.wrapperPassword,
+.wrapperCustomizations {
+  margin: 0 auto;
+  width: 85rem;
+}
+
+.label {
+  font-size: 1.6rem;
+  color: #ddd;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.wrapperSlider {
+  margin-bottom: 4.8rem;
+}
+
+.wrapperCheckboxes {
+  display: flex;
+  gap: 3.2rem;
+}
+
+@media (max-width: 85rem) {
+  .wrapperPassword,
+  .wrapperCustomizations {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 65rem) {
+  .wrapperPassword,
+  .wrapperCustomizations {
+    width: 100%;
+    padding: 1.6rem;
+  }
+}

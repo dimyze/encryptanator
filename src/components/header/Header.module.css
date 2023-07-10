@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  color: #ddd;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
